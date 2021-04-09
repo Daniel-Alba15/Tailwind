@@ -1,0 +1,22 @@
+{
+  "name": "Tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "npm-watch": "^0.9.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.1.3",
+    "postcss": "^8.2.9"
+  }
+}

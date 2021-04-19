@@ -6,6 +6,9 @@ module.exports = {
         require('autoprefixer'),
         purgecss({
             content: ['./**/*.html']
-        })
+        }),
+        require('cssnano')({
+            preset: 'default',
+        }),
     ]
 }
